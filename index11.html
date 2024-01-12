@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupali's Portfolio</title>
+    <link rel="stylesheet" href="Style11.css" />
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- --------------------------header section---------------------  -->
+    <div id="header">
+        
+        <div class="container">
+            <nav>            
+                <ul>
+                    <li><i class="fa-solid fa-house"></i><a href="#header" > Home</a></li>
+                    <li><i class="fa-solid fa-circle-info"></i><a href="#about"> About</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><i class="fa-solid fa-phone"></i><a href="#contact"> Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <div class="head-text">
+                    <p style="text-shadow: 2px 2px #880808; color: rgb(154, 149, 149);">Web Designer</p>
+                    <h1>Hey , I am <span>Rupali Kandrup</span> from India.</h1><br>
+                    <h6>A fresher<br>Looking for job opportunities in web Designing and Development.</h6>
+
+                </div>
+            </div>
+        </div>
+        <!-- ------------------about section---------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="sky2.jpeg" height="500px" width="500px">
+                        
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Seeking for challenging position where i can showcase my skills and contribute to the growth of organization.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programing skills</span><br>C , Python , Java,</li>
+                                <li><span>Database Handling</span><br>PostgreSQL,Python</li>
+                                <!-- <i class="fans fa-crop-alt" style="color:white"></i> -->
+                                <li><span>UI/UX</span><br>Designing Web</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <!-- <li><span>Programing skills</span><br>C , Python , Java,</li> -->
+                                <!-- <li><span>Database Handling</span><br>PostgreSQL</li> -->
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span><br>SSC from VVMK(with 92.80%)</li>
+                                <li><span>2021</span><br>HSC from CSR College,Jategaon bk.(with 97.33%)</li>
+                                <li><span>2024</span><br>Appearing BSC.CS from Fergusson College,Pune.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------portfolio------------------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1><br><h4 style="color:orangered">Web Designs(html,css,javascript) </h4>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work11.jpeg" alt="Amazon_clone">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>It's a clone of Amazon Site.</p>
+                        <a href="index.html"> Visit Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png" alt="Placement_Cell">
+                    <div class="layer">
+                        <h3>Placement Cell</h3>
+                        <p>Placement Cell website Lookout</p>
+                        <a href="placementcell.html">Visit Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png" alt="QuizLet">
+                    <div class="layer">
+                        <h3>CS QuizLet</h3>
+                        <p>CSQuizLet website Lookout</p>
+                        <a href="LogIn13.html">Visit Project</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------------------contact-------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+             <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>rupali@gmail.com</p>
+                <p>98xxxxxx20</p><br>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i> <a href="#"> Facebook</a>
+                    <i class="fa-brands fa-linkedin"></i> <a href="#"> linkedin</a>
+                    <i class="fa-brands fa-twitter"></i><a href="#"> Twiteer</a>
+
+                </div>
+                <a href="RupaliKandrupCV.pdf" download class="btn btn2">Download CV</a>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    Name :- <input type="text" name="Name" placeholder="Your Name" required >
+                    Email :-<input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="7" cols="30" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="message"></span>
+            </div>
+        </div>
+    </div>
+   <div class="copyright">
+    <p>
+        <i class="fa-regular fa-copyright"></i> 2024 Portfolio. All rights are reserved...
+        <font color="red"><i class="fa-solid fa-heart"></i></font>
+    </p>
+   </div>
+ </div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwnifs3T6Ew34qhvOGdryIwQYkGHHDEcfzAoLP0_xcUIMEnCzotm8ImuDesGYMA2dL6DA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const message=document.getElementById("message")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            message.innerHTML="Details sent successfully"
+            setTimeout(function(){
+                message.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
